@@ -1,0 +1,12 @@
+Source: ros-hydro-nao-moveit-config
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael.arguedas@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-nao-description
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-nao-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-joint-state-publisher, ros-hydro-moveit-fake-controller-manager, ros-hydro-moveit-planners-ompl, ros-hydro-moveit-ros-move-group, ros-hydro-moveit-ros-visualization, ros-hydro-moveit-simple-controller-manager, ros-hydro-nao-description, ros-hydro-robot-state-publisher, ros-hydro-xacro
+Description: An automatically generated package with all the configuration and launch files for using the NAO robot with the MoveIt Motion Planning Framework
